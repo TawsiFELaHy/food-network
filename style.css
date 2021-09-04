@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    color: gray;
+}
+
+.container {
+    height: 450px;
+    padding: 50px;
+}
+
+.half-row {
+    width: 50%;
+    float: left;
+}
+
+.half-row img {
+    width: 50%;
+}
+
+p {
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.single-color {
+    color: orangered
+}
+
+.btn {
+    background-image: linear-gradient(rgb(207, 62, 37), rgb(223, 157, 34));
+    border-radius: 25px;
+    font-weight: 700;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 15px;
+
+}
+
+/* About Me Section Start */
+.about-me {
+    background-image: url(images/shapes/frame-loading.jpg);
+    background-size: cover;
+}
+
+/* Recipe Section Start */
+.recipe-txt {
+    text-align: center;
+}
+
+.recipe-card {
+    display: flex;
+    margin-left: 5px;
+    justify-content: center;
+
+}
+
+.card {
+
+    height: 420px;
+    width: 200px;
+    position: relative;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(230, 223, 223);
+    background-color: wheat;
+    text-align: center;
+    margin: 40px 40px;
+
+
+}
+
+.card:hover {
+    transform: scale(1.2);
+    transition: transform 2s;
+}
+
+.recipe-card {}
+
+.card img {
+    width: 100%;
+}
+
+/* Subscriber Section Start */
+.subscribers {
+    border-radius: 10px;
+    height: 100px;
+    margin: 200px 100px 5%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.sign {
+    margin-left: 70px;
+    text-align: center;
+}
+
+p {
+    font-weight: 300px;
+    color: gray;
+}
+
+/* Subscribers Section end */
+footer {
+    background-color: black;
+    text-align: center;
+}
